@@ -1,0 +1,10 @@
+node_modules/
+logs/
+*.e
+*.ec
+*.log
+*.lnk
+*.bak
+*.obj
+*.res
+*.exe
