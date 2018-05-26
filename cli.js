@@ -108,7 +108,7 @@ if (cli.outJson) {
   let json = readJson(cli.outJson) || {}
       json = Object.assign({}, json, info)
   try {
-    fs.writeFileSync(cli.outJson, JSON.stringify(json))
+    fs.writeFileSync(cli.outJson, JSON.stringify(json, null, 2))
   } catch (e) {
     console.log('Write file error: ', e.message)
   }
