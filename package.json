@@ -1,10 +1,10 @@
 {
   "name": "e-lang-tool",
   "author": "binsee",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Read and Write info for e lang code file.",
   "scripts": {
-    "release": "standard-version --skip.tag -a --scripts.postbump",
+    "release": "standard-version --skip.tag",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "license": "MIT",
@@ -17,7 +17,7 @@
     "@types/iconv-lite": "0.0.1"
   },
   "bin": {
-    "etool": "./bin/cli"
+    "etool": "cli.js"
   },
   "repository": {
     "type": "git",
