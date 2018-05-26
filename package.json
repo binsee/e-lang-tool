@@ -1,7 +1,7 @@
 {
   "name": "e-lang-tool",
   "author": "binsee",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Read and Write info for e lang code file.",
   "scripts": {
     "release": "standard-version --skip.tag",
