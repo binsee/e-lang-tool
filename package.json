@@ -1,0 +1,35 @@
+{
+  "name": "e-lang-tool",
+  "author": "binsee",
+  "version": "1.0.0",
+  "description": "Read and Write info for e lang code file.",
+  "scripts": {
+    "start": "node index",
+    "release": "out_version && npm run changelog",
+    "changelog": "auto-changelog"
+  },
+  "auto-changelog": {
+    "template": "keepachangelog",
+    "commitLimit": false,
+    "unreleased": false
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "iconv-lite": "^0.4.23"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/iconv-lite": "0.0.1"
+  },
+  "bin": {
+    "etool": "./bin/cli"
+  },
+  "files": [
+    "index.js",
+    "etool.js",
+    "cli.js",
+    "package.json",
+    "README.MD"
+  ]
+}
