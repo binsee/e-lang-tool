@@ -8,3 +8,4 @@ logs/
 *.obj
 *.res
 *.exe
+package-lock.json
