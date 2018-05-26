@@ -17,7 +17,7 @@
     "@types/iconv-lite": "0.0.1"
   },
   "bin": {
-    "etool": "./bin/cli"
+    "etool": "cli.js"
   },
   "repository": {
     "type": "git",
