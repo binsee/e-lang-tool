@@ -190,7 +190,8 @@ if (Object.keys(json).length > 0) {
 function readJson(file) {
   let json = {}
   try {
-    json = require(file)
+    const buf  = fs.readFileSync(file)
+          json = JSON.parse(buf.toString('utf8'))
   } catch (e) {
   }
   return json
