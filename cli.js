@@ -100,9 +100,8 @@ if (cli.inputJson) {
   }
   readFields.forEach(key => {
     if (key === 'version') {
-      key = 'ver'
-    }
-    if (json.hasOwnProperty(key)) {
+      cli['ver'] = json[key]
+    } else if (json.hasOwnProperty(key)) {
       cli[key] = json[key]
     }
   })
