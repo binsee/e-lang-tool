@@ -30,9 +30,11 @@
   "homepage": "https://github.com/binsee/e-lang-tool#readme",
   "files": [
     "index.js",
-    "etool.js",
+    "eTool.js",
     "cli.js",
+    "eTool",
     "package.json",
-    "README.MD"
+    "README.MD",
+    "README_zh-CN.MD"
   ]
 }
