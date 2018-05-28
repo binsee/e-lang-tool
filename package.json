@@ -1,7 +1,7 @@
 {
   "name": "e-lang-tool",
   "author": "binsee",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Read and Write info for e lang code file.",
   "scripts": {
     "etool": "node eTool",
@@ -32,7 +32,9 @@
     "index.js",
     "etool.js",
     "cli.js",
+    "eTool",
     "package.json",
-    "README.MD"
+    "README.MD",
+    "README_zh-CN.MD"
   ]
 }
