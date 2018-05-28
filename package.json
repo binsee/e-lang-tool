@@ -1,7 +1,7 @@
 {
   "name": "e-lang-tool",
   "author": "binsee",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Read and Write info for e lang code file.",
   "scripts": {
     "etool": "node eTool",
