@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.2"></a>
+## [1.1.2](https://github.com/binsee/e-lang-tool/compare/v1.1.1...v1.1.2) (2018-05-28)
+
+
+### Bug Fixes
+
+* fix can not read json file ([0a8be6b](https://github.com/binsee/e-lang-tool/commit/0a8be6b))
+
+
+
 <a name="1.1.1"></a>
 ## [1.1.1](https://github.com/binsee/e-lang-tool/compare/1.0.0...1.1.1) (2018-05-28)
 
