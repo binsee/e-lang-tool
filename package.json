@@ -32,7 +32,9 @@
     "index.js",
     "etool.js",
     "cli.js",
+    "eTool",
     "package.json",
-    "README.MD"
+    "README.MD",
+    "README_zh-CN.MD"
   ]
 }
