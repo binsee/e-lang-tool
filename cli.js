@@ -3,7 +3,7 @@
 
 const cli     = require('commander')
 const Package = require('./package')
-const ETool   = require('./etool')
+const ETool   = require('./etool.js')
 const fs      = require('fs')
 
 
